@@ -12,3 +12,15 @@ if (x >= 5) {
 } else {
   "x is smaller than 5"
 }
+
+#return Statement in R
+check <- function(x) {
+  if (x > 0) {
+    result <- "Positive"
+  } else if (x < 0) {
+    result <- "Negative"
+  } else {
+    result <- "Zero"
+  }
+  return(result)
+}
