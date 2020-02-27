@@ -18,7 +18,10 @@ paste(c('X','Y'),1:5,sep='_',collapse=' and ')
 
 paste0('X',1:5)
 paste0('X',1:5,collapse=",")
+<<<<<<< HEAD
 paste0('X',1:5,sep=",")
+=======
+>>>>>>> origin
 
 paste(1:10, 101:110, letters[1:10], sep="-")
 cat(1:10, 101:110, letters[1:10], sep="-")
@@ -26,6 +29,7 @@ cat(1:10, 101:110, letters[1:10], sep="-")
 x <- c("another", "example", "with", "a", "vector")
 
 
+<<<<<<< HEAD
 paste(c('one','two','three','four'), collapse='and')
 paste(c('one','two','three','four'),sep='')
 paste(c('one','two','three','four'),sep='and')
@@ -49,3 +53,5 @@ print(paste(a,b,c, collapse = ""))
 print(paste(a,b,c, collapse = " "))
 
 paste(c('X','Y'),1:5,sep='_',collapse=' and ')
+=======
+>>>>>>> origin

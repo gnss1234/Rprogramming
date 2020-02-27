@@ -112,7 +112,10 @@ mean_of_that <- function(x, mean_of = mean(x)){
 }
 mean_of_that(c(1,2,3,4,NA))
 
+<<<<<<< HEAD
 runif(3,4,5)
+=======
+>>>>>>> origin
 
 
 
